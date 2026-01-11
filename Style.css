@@ -1,0 +1,115 @@
+/* Global */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  scroll-behavior: smooth;
+}
+
+.lang-switch {
+  text-align: center;
+  margin: 15px;
+}
+
+.lang-switch button {
+  margin: 0 5px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  background-color: #0b5ed7;
+  color: white;
+  transition: 0.3s;
+}
+
+.lang-switch button:hover {
+  background-color: #084298;
+}
+
+/* Hero Section */
+.hero {
+  background: url('hero-bg.jpg') center/cover no-repeat;
+  position: relative;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-overlay {
+  text-align: center;
+  color: white;
+  background-color: rgba(0,0,0,0.5);
+  padding: 50px 20px;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+/* WhatsApp Button */
+.whatsapp-btn {
+  display: inline-block;
+  background-color: #25D366;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.whatsapp-btn:hover {
+  background-color: #1ebe57;
+  transform: scale(1.05);
+}
+
+/* Welcome Section */
+.welcome {
+  margin: 40px 20px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+}
+
+.welcome p {
+  line-height: 1.6;
+  white-space: pre-line;
+}
+
+/* Cards Section */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 40px 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  margin: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  margin-bottom: 15px;
+  color: #0b5ed7;
+}
+
+/* Responsive */
+@media(max-width: 768px) {
+  .hero h1 { font-size: 2em; }
+  .hero p { font-size: 1em; }
+  .cards { flex-direction: column; align-items: center; }
+}
