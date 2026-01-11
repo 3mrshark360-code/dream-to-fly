@@ -1,0 +1,39 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f4f6f8;
+}
+
+header {
+  background: #003366;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lang-btn button {
+  margin-left: 10px;
+  padding: 5px 10px;
+}
+
+.hero {
+  background: #e3f2fd;
+  padding: 50px;
+  text-align: center;
+}
+
+.btn {
+  background: green;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+section {
+  padding: 20px;
+  background: white;
+  margin: 10px;
+}

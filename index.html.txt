@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Dream To Fly</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1 id="siteTitle">Dream To Fly</h1>
+  <div class="lang-btn">
+    <button onclick="setLanguage('en')">English</button>
+    <button onclick="setLanguage('bn')">বাংলা</button>
+  </div>
+</header>
+
+<section class="hero">
+  <h2 id="heroTitle">Study MBBS in China</h2>
+  <p id="heroText">Your trusted China Medical University consultant</p>
+  <a href="https://wa.me/880XXXXXXXXXX" class="btn" target="_blank" id="applyBtn">Apply via WhatsApp</a>
+</section>
+
+<section>
+  <h2 id="whyTitle">Why China?</h2>
+  <p id="whyText">China offers world-class medical education at affordable cost.</p>
+</section>
+
+<section>
+  <h2 id="reqTitle">Admission Requirements</h2>
+  <ul id="reqList"></ul>
+</section>
+
+<section>
+  <h2 id="processTitle">Admission Process</h2>
+  <ol id="processList"></ol>
+</section>
+
+<section>
+  <h2 id="contactTitle">Contact Us</h2>
+  <p>WhatsApp: <strong>+880XXXXXXXXXX</strong></p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
