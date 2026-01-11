@@ -1,0 +1,35 @@
+<!-- Hero Section -->
+<section class="hero">
+  <h1>Study MBBS in China</h1>
+  <p>Your trusted China Medical University consultant for Bangladeshi students.</p>
+  <a class="whatsapp-btn" href="https://wa.me/8801893753606?text=Hi%2C%20I%20want%20admission%20info%20for%20China%20MBBS." target="_blank">
+    Chat on WhatsApp
+  </a>
+</section>
+
+<!-- Other Sections Below -->
+<section>
+  <h2 id="aboutTitle">Why China?</h2>
+  <p id="aboutText">
+    China offers world-class medical education at affordable cost.
+  </p>
+</section>
+
+<section>
+  <h2 id="reqTitle">Admission Requirements</h2>
+  <ul id="reqList">
+    <li>SSC & HSC passed</li>
+    <li>Minimum GPA requirement</li>
+    <li>Age 17–25 years</li>
+  </ul>
+</section>
+
+<section>
+  <h2 id="processTitle">Admission Process</h2>
+  <ol id="processList">
+    <li>Submit documents</li>
+    <li>Get offer letter</li>
+    <li>Apply for visa</li>
+    <li>Fly to China</li>
+  </ol>
+</section>
